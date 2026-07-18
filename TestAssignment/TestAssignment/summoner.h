@@ -1,5 +1,11 @@
 #pragma once
-class summoner
+#include "Character.h"
+
+
+class summoner : public Character
 {
+public:
+	//UŒ‚—Í‚ğİ’è‚·‚é
+	void setattack() override;
 };
 
