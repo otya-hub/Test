@@ -1,7 +1,6 @@
 #pragma once
 #include "Character.h"
 
-
 class summoner : public Character
 {
 public:

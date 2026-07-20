@@ -1,5 +1,9 @@
 #pragma once
-class wizard
+#include "Character.h"
+
+class wizard : public Character
 {
+public:
+	void setattack() override;
 };
 
